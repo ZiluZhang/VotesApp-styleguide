@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+html, body {
+  margin: 10px !important;
+  height: 100%;
+
+  app-dashboard {
+    height: 100%;
+  }
+
+  .button {
+    @extend .btn;
+    @extend .btn-primary;
+  }
+
+  h1 {
+    font-size: 1.8em;
+    text-align: center;
+  }
+}
+
+.form {
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  width: 80%;
+
+  mat-form-field, button {
+    width: 100%;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+
+  .uploaded {
+    font-size: 35px;
+    color: #007bff;
+  }
+
+}
