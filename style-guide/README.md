@@ -29,5 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Deploy Angular App to Github Pages
 
 `npm i -g angular-cli-ghpages`
+
 `ng build --env=prod --base-href "https://ziluzhang.github.io/VotesApp-styleguide/"`
+
 `angular-cli-ghpages --dir "./dist/style-guide"`
